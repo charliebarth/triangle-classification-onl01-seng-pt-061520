@@ -7,7 +7,6 @@ class Triangle
     @one = one
     @three = three
     @two = two
-    puts one, two, three
     @sides << @one
     @sides << @two
     @sides << @three
@@ -17,7 +16,6 @@ class Triangle
     sum_one_two = @sides[0] + @sides[1]
     sum_one_three = @sides[0] + @sides[2]
     sum_two_three = @sides[1] + @sides[2]
-    puts sum_one_two, sum_one_three, sum_two_three
     if (@sides.none? {|i| i <= 0}) && (sum_one_two > @sides[2]) && (sum_one_three > @sides[1]) && (sum_two_three > @sides[0])
       return true
     else 
