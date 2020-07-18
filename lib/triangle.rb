@@ -10,7 +10,6 @@ class Triangle
     @sides << @one
     @sides << @two
     @sides << @three
-    kind
   end
   
   def valid?
