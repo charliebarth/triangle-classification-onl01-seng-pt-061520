@@ -48,3 +48,8 @@ class TriangleError < StandardError
     "This is not a legal triangle."
   end
 end
+
+Triangle.new(-1, -2, 3)
+
+
+
