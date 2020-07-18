@@ -44,8 +44,3 @@ class Triangle
   end 
 end
 
-class TriangleError < StandardError
-  def message
-    "This is not a legal triangle."
-  end
-end
