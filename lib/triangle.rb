@@ -1,4 +1,4 @@
-class Triangle < TriangleError
+class Triangle 
 
   attr_accessor :one, :two, :three
   
