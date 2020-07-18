@@ -7,6 +7,7 @@ class Triangle
     @one = one
     @three = three
     @two = two
+    puts one, two, three
     @sides << @one
     @sides << @two
     @sides << @three
